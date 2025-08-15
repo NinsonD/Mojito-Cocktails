@@ -1,12 +1,76 @@
-# React + Vite
+# Mojito Cocktails
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, visually stunning React + Vite web app for cocktail lovers. Explore classic and creative cocktails with beautiful animations and a smooth user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React and Vite for fast development and HMR
+- GSAP-powered scroll animations and effects
+- Responsive design for mobile and desktop
+- Custom fonts and rich visuals
+- Organized components and utility-first CSS (Tailwind)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+
+### Installation
+
+```powershell
+# Clone the repository
+git clone https://github.com/NinsonD/Mojito-Cocktails.git
+cd Mojito-Cocktails
+
+# Install dependencies
+npm install
+```
+
+### Running the App
+
+```powershell
+npm run dev
+```
+
+The app will be available at `http://localhost:5173` by default.
+
+## Project Structure
+
+```
+mojito/
+├── public/
+│   ├── images/         # Cocktail and UI images
+│   ├── fonts/          # Custom font files
+│   └── videos/         # Video assets
+├── src/
+│   ├── components/     # React components (Hero, NavBar, etc.)
+│   ├── App.jsx         # Main app component
+│   ├── index.css       # Global and Tailwind CSS
+│   └── main.jsx        # App entry point
+├── package.json        # Project metadata and scripts
+├── vite.config.js      # Vite configuration
+└── README.md           # Project documentation
+```
+
+## Technologies Used
+
+- React
+- Vite
+- GSAP (GreenSock Animation Platform)
+- Tailwind CSS
+- PostCSS & Autoprefixer
+
+## Customization
+
+- Update images, fonts, and videos in the `public/` folder
+- Modify styles in `src/index.css`
+- Add or edit components in `src/components/`
+
+## License
+
+MIT
+
+---
+
+Created by Ninson D. Enjoy your Mojito! 🍸
